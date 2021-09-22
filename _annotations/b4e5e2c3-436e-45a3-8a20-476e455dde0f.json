@@ -1,0 +1,45 @@
+---
+canvas: "https://dnoneill.github.io/wax-iiif/img/derivatives/iiif/canvas/fullBayeux.json"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "man looking off the boat",
+            "purpose": "commenting",
+            "creator": {
+                "id": "vtbetts",
+                "name": "vtbetts"
+            },
+            "created": "2021-09-22T15:01:36.285Z",
+            "modified": "2021-09-22T15:01:41.710Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "#boat",
+            "purpose": "tagging",
+            "creator": {
+                "id": "vtbetts",
+                "name": "vtbetts"
+            },
+            "created": "2021-09-22T15:01:50.908Z",
+            "modified": "2021-09-22T15:01:56.011Z"
+        }
+    ],
+    "target": {
+        "source": "https://dnoneill.github.io/wax-iiif/img/derivatives/iiif/canvas/fullBayeux.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=pixel:40846.91015625,362.6188049316406,164.91015625,219.57852172851562"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://dnoneill.github.io/wax-iiif/img/derivatives/iiif/fullBayeux/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "{{site.url}}{{site.baseurl}}/annotations/b4e5e2c3-436e-45a3-8a20-476e455dde0f.json"
+}
